@@ -1,0 +1,49 @@
+create database DiningManagement_System;
+
+Use DiningManagement_System;
+
+create table Student
+	(Stu_Name		varchar(20),
+	 Room_no		numeric(3,0),
+	 Student_ID		numeric(6,0),
+     Discipline    varchar(20),
+     Moblie_No     numeric(11),
+	 primary key ( Student_ID)
+	);
+
+create table Meals
+	(Meal_Name 		varchar(6), 
+	 primary key (Meal_Name)
+	);
+
+create table Order_
+	(Order_ID	varchar(15), 
+	 primary key (Order_ID)
+	);
+
+create table Manager
+	(Manager_Name  varchar(20), 
+	 Student_ID		numeric(6,0),
+	 primary key (Student_ID)
+	);
+
+create table Payments
+	(Transaction_ID 		varchar(8), 
+    Student_ID		numeric(6,0),
+	Amount		        numeric(3,0),
+	 primary key (Student_ID)
+	);
+
+create table Inventory
+	(Record_of_food_items  varchar(20), 
+	 Cost	numeric(3,0),
+	 Quantity		numeric(3,0),
+	 
+	 primary key (Record_of_food_items )
+	);
+
+create table Reports
+	(Report_ID		varchar(20), 
+	 primary key (Report_ID	)
+	);
+
