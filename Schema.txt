@@ -16,14 +16,16 @@ create table Meals
 	 primary key (Meal_Name)
 	);
 
-create table Order_
-	(Order_ID	varchar(15), 
+create table Meal_oder
+	(Order_ID 	varchar(15),
+	 Date_Of_Order date,
 	 primary key (Order_ID)
 	);
 
 create table Manager
 	(Manager_Name  varchar(20), 
 	 Student_ID		numeric(6,0),
+	 Moblie_Numbernumeric(11),
 	 primary key (Student_ID)
 	);
 
@@ -36,7 +38,7 @@ create table Payments
 
 create table Inventory
 	(Record_of_food_items  varchar(20), 
-	 Cost	numeric(3,0),
+	 Price	numeric(3,0),
 	 Quantity		numeric(3,0),
 	 
 	 primary key (Record_of_food_items )
