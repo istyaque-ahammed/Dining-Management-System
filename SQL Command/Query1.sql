@@ -1,0 +1,2 @@
+SELECT Student_name,transaction_id
+from student natural join payments

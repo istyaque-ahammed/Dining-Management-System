@@ -22,3 +22,4 @@ INSERT INTO `dining_management_system`.`student` (`Student_name`, `Room_number`,
 INSERT INTO `dining_management_system`.`student` (`Student_name`, `Room_number`, `Discipline_name`, `Student_ID`, `Mobile_Number`) VALUES ('Sumon', '110', 'Edu', '192909', '01484651235');
 INSERT INTO `dining_management_system`.`student` (`Student_name`, `Room_number`, `Discipline_name`, `Student_ID`, `Mobile_Number`) VALUES ('Shakil', '323', 'Pharm', '201128', '01984262456');
 INSERT INTO `dining_management_system`.`student` (`Student_name`, `Room_number`, `Discipline_name`, `Student_ID`, `Mobile_Number`) VALUES ('Mushfiqur', '409', 'FMRT', '180629', '01564556232');
+INSERT INTO `dining_management_system`.`student` (`Student_name`, `Room_number`, `Discipline_name`, `Student_ID`, `Mobile_Number`) VALUES ('Shakil', '327', 'Econ', '191520', '0148762214');

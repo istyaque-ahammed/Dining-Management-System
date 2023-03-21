@@ -11,6 +11,9 @@ create table Meals
 				(Meal_type  varchar(6), 
                 Price  numeric(2,2), 
                 primary key (Meal_type)  );
+                ALTER TABLE `dining_management_system`.`payments` 
+				ADD COLUMN `Meal_Type` VARCHAR(20) NULL AFTER `Price`;
+
 create table Payments  
 				(Transaction_ID  varchar(15),
                 Student_ID  numeric(6),  
