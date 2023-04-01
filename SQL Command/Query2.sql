@@ -1,3 +1,3 @@
-SELECT Student_name,transaction_id
+SELECT Student_name,transaction_id,Discipline_name
 from student natural join payments
-where student.Discipline_name= 'URP'
+where payments.meal_type='Lunch'
